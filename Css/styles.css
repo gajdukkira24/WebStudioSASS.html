@@ -31,7 +31,9 @@ a {
     margin: 0 auto;
 }
 
-
+header{
+    border: 1px solid #ECECEC
+}
 .header-list {
    display: flex;
    flex-wrap: nowrap;
@@ -254,7 +256,7 @@ img {
     line-height: 42.19px;
     letter-spacing: 0.03em;
     text-align: center;
-    border-bottom: 10px;
+    border-bottom: 40px;
 
 
 
@@ -331,6 +333,8 @@ img {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
+
 
 }
 
@@ -340,6 +344,8 @@ img {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
+    color: #FFFFFF99;
+
 
 }
 
@@ -369,6 +375,7 @@ color: #ffffff;
     line-height: 36px;
     letter-spacing: 0.06em;
     overflow: hidden;
+    border:  1px  #c9c6c6;
 
 }
 * {
@@ -412,6 +419,7 @@ color: #ffffff;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.03em;
+    background-color: 1px solid #EEEEEE;
 
 }
 
@@ -471,6 +479,7 @@ footer {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    border:  1px  #dbdbdb;
 }
 
 .text,
@@ -609,9 +618,12 @@ footer {
    border-radius: 2px;
     color: #ffffff;
     background-color: #3b8dd0;
-    width: 177px;
-    height: 44px;
-    margin-left: 300px;
+    width: 174px;
+    height: 40px;
+    margin-left: 650px;
+    transform: translateY(-65px);
+    
+    
     
 
 
@@ -628,8 +640,9 @@ footer {
     background: #2F303A;
     width: 300px;
     height: 40px;
-    color: #ffffff;
-    margin-left: 700px;
+    color: #FFFFFF99;
+    margin-left: 350px;
+    border-radius: 4px;
 
 }
 
@@ -645,8 +658,9 @@ footer {
    font-family: 40px;
 font-size: 14px;
 font-weight: 700;
-margin-left: 700px;
+margin-left: 358px;
 top: 10px;
+margin-bottom: 20px;
 
 }
 
@@ -670,6 +684,8 @@ top: 518px;
 gap: 0px;
 border-radius: 4px ;
 border: 1px 0px 0px 0px;
+margin-bottom: 20px;
+
 
 
 }
@@ -679,6 +695,7 @@ border: 1px 0px 0px 0px;
    gap: 0px;
    border-radius: 4px ;
    border: 1px 0px 0px 0px;
+   color: #212121;
    
   
 }
@@ -693,9 +710,18 @@ border: 1px 0px 0px 0px;
    color: #757575;
    border-radius: 1px;
    
+   
 
 
   
+}
+.modal-label1 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #757575;
+    border-radius: 1px;
+    margin-left: -100px;
 }
 
 .m4{
@@ -1079,6 +1105,7 @@ body {
        
      
 }
+
 .svg2{
 
    width: 170px;
@@ -1142,4 +1169,19 @@ text-align: center;
 
 .data{
     display: flex;
+}
+
+.iconp{
+    width: 24px;
+    margin-left: 30px;
+}
+
+.Logoweb{
+    margin-bottom: 20px;
+}
+
+.en{
+    width:10px ;
+   color: #757575;
+
 }
