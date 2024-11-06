@@ -179,6 +179,7 @@ img {
 .people {
     display: flex;
     gap: 30px;
+    
 
 
 }
@@ -250,7 +251,7 @@ img {
 
 .text-li {
 
-
+    margin-bottom: 45px;
     font-size: 36px;
     font-weight: 700;
     line-height: 42.19px;
@@ -292,6 +293,7 @@ img {
 
 .people-title {
     color: #212121;
+    text-align: center;
 
     font-size: 16px;
     font-weight: 500;
@@ -303,7 +305,9 @@ img {
 }
 
 .people-text {
+    
     color: #757575;
+    text-align: center;
 
     font-size: 16px;
     font-weight: 400;
@@ -340,11 +344,12 @@ img {
 
 .address-hero {
 
+    margin-bottom: 30px;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #FFFFFF99;
+    color: #FFFFFF99   ; 
 
 
 }
@@ -620,7 +625,7 @@ footer {
     background-color: #3b8dd0;
     width: 174px;
     height: 40px;
-    margin-left: 650px;
+    margin-left: 740px;
     transform: translateY(-65px);
     
     
@@ -638,10 +643,10 @@ footer {
 
 .input {
     background: #2F303A;
-    width: 300px;
+    width: 358px;
     height: 40px;
     color: #FFFFFF99;
-    margin-left: 350px;
+    margin-left: 370px;
     border-radius: 4px;
 
 }
@@ -658,7 +663,7 @@ footer {
    font-family: 40px;
 font-size: 14px;
 font-weight: 700;
-margin-left: 358px;
+margin-left:  375px;
 top: 10px;
 margin-bottom: 20px;
 
@@ -735,7 +740,7 @@ margin-bottom: 20px;
 }
 
 data {
-   font-family: 'Roboto';
+  text-align: center;
    font-size: 40px;
    font-weight: 700;
    line-height: 23.44px;
@@ -1119,12 +1124,14 @@ display: flex;
 
 .Clientsvg-section   {
 font-size: 36px;
+margin-bottom: 45px;
 font-weight: 700;
 line-height: 42.19px;
 letter-spacing: 0.03em;
 text-align: center;
 
 }
+
 
 
 
@@ -1140,6 +1147,7 @@ text-align: center;
 
 .Logoweb{
     margin-bottom: 20px;
+    width: 145px;
 }
 
 .en{
@@ -1161,3 +1169,165 @@ text-align: center;
 @media (min-width: 1200px) { 
    
 }
+
+
+
+
+
+
+
+  
+
+
+  .sm{
+    width: 16px;
+    height: 12px;
+  }
+
+
+  .team-h2{
+    margin-bottom: 45px;
+  }
+  
+  .team-electro{
+   margin-right: 20px;
+    display: block;
+    display: flex;
+    margin-left: 39px;
+    gap: 10px;
+   
+  
+
+  }
+
+  .team1{
+    width: 44px;
+height: 44px;
+color: #AFB1B8;
+border-radius: 50%; 
+   
+
+
+  }
+
+
+
+ 
+
+
+  .peopl1{
+    background-color: white;
+border-radius: 0px 0px 4px 4px;
+box-shadow: 1px 2px 1px 0px #00000033;
+
+box-shadow: 0px 1px 1px 0px #00000024;
+
+box-shadow: 0px 1px 3px 0px #0000001F;
+
+
+  }
+ 
+
+  .pg{
+    margin-bottom: 40px;
+  }
+
+
+  .pg3{
+    background-color: white;
+    margin-bottom: 40px; 
+  }
+  
+  .peopl3{
+  background-color: white;
+border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 2px 1px 0px #00000033;
+
+box-shadow: 0px 1px 1px 0px #00000024;
+
+box-shadow: 0px 1px 3px 0px #301d1d1f;
+
+
+
+  }
+
+  
+  .social-networks{
+    margin-bottom: 30px;
+  }
+
+  .social-electro{
+
+    display: flex;
+    height:  44px;
+    color: white;
+    background-color: #2F303A;
+    
+  }
+
+  .join{
+    color: #FFFFFF;
+    margin-right: -460px;
+margin-bottom: 100px;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+transform: translateY(-110px);
+
+
+  }
+  .address-hero1{
+
+    margin-bottom: 20px;
+    top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF99   ; 
+    
+
+
+
+}
+
+
+
+.svg1:hover{
+    fill:  #2196F3;
+    border-color: #2196F3;
+
+}
+
+.svg2:hover{
+    fill:  #2196F3;
+    border-color: #2196F3;
+}
+
+.svg3:hover{
+    fill:  #2196F3;
+    border-color: #2196F3;
+}
+
+.svg4:hover{
+    fill:  #2196F3;
+    border-color: #2196F3;
+}
+
+.svg5:hover{
+    fill:  #2196F3;
+    border-color: #2196F3;
+}
+.svg6:hover{
+    fill:  #2196F3;
+    border-color: #2196F3;
+}
+
+
+
+
+ 
+    
+
+
+

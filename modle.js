@@ -13,3 +13,19 @@
       document.body.classList.toggle("no-scroll");
     }
   })();
+
+ 
+
+
+const links = document.querySelectorAll(".header-list a");
+
+
+const currentUrl = window.location.href.split('?')[0]; 
+
+forEach(link => {
+  if (link.href === currentUrl) {
+    link.classList.add("current");
+  }
+});
+
+
