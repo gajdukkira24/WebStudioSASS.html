@@ -1335,3 +1335,12 @@ transform: translateY(-110px);
 }
 
 
+.team-electro:hover{
+    fill:  #2196F3;
+    border-color: #2196F3;
+}
+
+.header-logo-link::before
+.header-logo-link::after{
+    color: #2196F3;
+}
