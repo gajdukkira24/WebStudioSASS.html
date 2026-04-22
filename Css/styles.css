@@ -374,6 +374,7 @@ color: #ffffff;
 
 
 
+
 }
 
 .text-port {
@@ -803,6 +804,7 @@ border-radius: 4px;
 border-color: #F5F4FA;
 
 
+
    
 
 
@@ -997,6 +999,7 @@ align-content: center;
    transition-property: color;
    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border: #2196F3 solid;
   
 
 }
@@ -1343,4 +1346,15 @@ transform: translateY(-110px);
 .header-logo-link::before
 .header-logo-link::after{
     color: #2196F3;
+}
+.imegesport {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.design-elevent {
+    display: flex;
+    justify-content: center;
 }
